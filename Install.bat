@@ -34,7 +34,6 @@ echo Installing Dor Browser dependencies...
 python -m pip install ^
     PyQt6 ^
     PyQt6-WebEngine ^
-    PyQt6-Multimedia ^
     yt-dlp ^
     vt-py ^
     openai ^
