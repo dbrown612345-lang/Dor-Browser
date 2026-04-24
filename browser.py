@@ -224,13 +224,17 @@ class Browser(QMainWindow):
         <body>
             <h1>Dor Browser</h1>
 
+            <div class="door-img">
+            <img src="https://i.imgur.com/8pQeQ0L.jpeg" alt="Blue Door">
+        </div>
+
             <div class="search-box">
                 <input id="homeSearch" placeholder="Search the web..." onkeydown="doSearch(event)">
             </div>
 
             <div class="tiles">
                 <div class="tile" onclick="window.location.href='https://youtube.com'">YouTube</div>
-                <div class="tile" onclick="window.location.href='https://reddit.com'">Reddit</div>
+                <div class="tile" onclick="window.location.href='https://virustotal.com'">Reddit</div>
                 <div class="tile" onclick="window.location.href='https://github.com'">Github</div>
             </div>
 
