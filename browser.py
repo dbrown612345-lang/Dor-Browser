@@ -457,7 +457,7 @@ class Browser(QMainWindow):
 
             <div class="tiles">
                 <div class="tile" onclick="window.location.href='https://youtube.com'">YouTube</div>
-                <div class="tile" onclick="window.location.href='https://reddit.com'">Reddit</div>
+                <div class="tile" onclick="window.location.href='https://gmail.com'">gmail</div>
                 <div class="tile" onclick="window.location.href='https://github.com'">GitHub</div>
             </div>
         </body>
