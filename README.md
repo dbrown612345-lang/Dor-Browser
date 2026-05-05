@@ -1,8 +1,10 @@
 # Dor-Browser
 my own browser
 
+#install using exe
+(might not work still in tersting) download the exe and 2x click on it, it SHOULD open and install python and the dependencys if it dosent work try installing python manualy and then clicking on the file
 
-#install
+#install using python
 
 first download the browser.js and the open.bat and move them both to your desktop
 
