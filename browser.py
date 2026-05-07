@@ -32,7 +32,7 @@ from PyQt6.QtMultimediaWidgets import QVideoWidget
 
 from openai import OpenAI
 
-print(
+print(r"""
   _____              _      _   ____                                    
  |  __ \            (_)    | | |  _ \                                   
  | |  | | __ _ _ __  _  ___| | | |_) |                                  
@@ -43,9 +43,10 @@ print(
  | |  | | ___  _ __  | |_) |_ __ _____      _____  ___ _ __   | || | | |
  | |  | |/ _ \| '__| |  _ <| '__/ _ \ \ /\ / / __|/ _ \ '__|  | || | | |
  | |__| | (_) | |    | |_) | | | (_) \ V  V /\__ \  __/ |     | || |_| |
- |_____/ \___/|_|    |____/|_|  \___/ \_/\_/ |___/\___|_|     |_(_)___/ 
-                                                                        
- )
+ |_____/ \___/|_|    |____/|_|  \___/ \_/\_/ |___/\___|_|     |_(_)___/              
+                                                                                            
+""")
+
 
 #If you are unlucky enough to debug this code im sorry -Daniel
 #if you are here to edit and you made a change leave your name
@@ -390,8 +391,8 @@ class Browser(QMainWindow):
                 text = "https://" + text
             v.setUrl(QUrl(text))
         else:
-            google_url = "https://www.google.com/search?q=" + text.replace(" ", "+")
-            v.setUrl(QUrl(google_url))
+            duckduckgo_url = "https://duckduckgo.com/?q=" + text.replace(" ", "+")
+            v.setUrl(QUrl(duckduckgo_url))
 
     
     # HOMEPAGE
@@ -467,7 +468,7 @@ class Browser(QMainWindow):
 
             <div class="search-box">
                 <input id="homeSearch" placeholder="Search the web..."
-                    onkeydown="if(event.key==='Enter'){{window.location.href='https://www.google.com/search?q='+encodeURIComponent(this.value);}}">
+                    onkeydown="if(event.key==='Enter'){{window.location.href='https://duckduckgo.com/?q='+encodeURIComponent(this.value);}}">
             </div>
 
             <div class="tiles">
