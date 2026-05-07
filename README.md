@@ -2,7 +2,8 @@
 my own browser
 
 #install using exe
-(might not work still in tersting) download the exe and 2x click on it, it SHOULD open and install python and the dependencys if it dosent work try installing python manualy and then clicking on the file
+
+download the exe from the releases and 2x click on it, it SHOULD open and install python and the dependencys if it dosent work try installing python manualy and then clicking on the file
 
 #install using python
 
